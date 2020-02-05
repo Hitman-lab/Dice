@@ -17,7 +17,28 @@ p{
 }
 
 img{
-	width: 80%;
+	width: 70%;
+}
+
+button{
+	padding: 10px;
+	color: #fff;
+	font-family: 'Lato';
+	background: none;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+button:focus{
+	outline: none;
+}
+
+button:hover{
+	font-weight: 600;
 }
 
 /* CSS selectors */
@@ -30,7 +51,11 @@ img{
 .dice{
 	display: inline-block;
 	text-align: center;
-	margin: 0 3%;
+	margin: auto;
+}
+
+.dice-alignment{
+	margin: 2% 4%;
 }
 
 .player-current-score{
@@ -38,8 +63,10 @@ img{
 	color: #fff;
 	padding: 3%;
 	font-size: 1.8rem;
+	box-shadow: 5px 5px #232931;
 }
 
 .btn-roll{
-	
+	display: block;
+	margin: auto;
 }

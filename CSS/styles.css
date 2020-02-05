@@ -66,7 +66,27 @@ button:hover{
 	box-shadow: 5px 5px #232931;
 }
 
-.btn-roll{
+.btn-roll-player1{
 	display: block;
 	margin: auto;
+}
+
+.btn-roll-player2{
+	display: block;
+	margin: auto;
+}
+
+.final-score{
+	padding: 10px;
+	font-weight: bold;
+	color: #c81912;
+	font-size: 15px;
+	font-family: 'Lato';
+	text-align: center;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.final-score:focus{
+	outline: none;
 }
